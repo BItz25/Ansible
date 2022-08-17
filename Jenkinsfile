@@ -1,10 +1,11 @@
 def genaralvars () {
-    env.GIT_REPO = 'https://gitlab.com/chaloglez/labsacademia.git'
-    env.GIT_BRANCH = 'main'
-    env.DOCKER_REPO = 'gonzafirma'
-    CONTAINER_PORT= '80'
-}
 
+    env.GIT_REPO = 'https://github.com/JosueRCB/ansible.git'
+    env.GIT_BRANCH = 'ansiblelab01'
+    env.DOCKER_REPO = 'josuercb'
+    CONTAINER_PORT= '84'
+
+}
 pipeline {
     agent any
     tools {
